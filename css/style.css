@@ -20,9 +20,20 @@ header {
     padding-top: 25px;
 }
 
-#article-info {
+.article-info {
     font-size: 15px;
     padding-bottom: 20px;
+    color: grey;
+}
+
+.article-info span {
+    color: grey;
+    font-size: 20px;
+}
+
+.article-info a {
+    text-decoration: none;
+    color: lightskyblue;
 }
 
 .caption {
@@ -30,12 +41,21 @@ header {
     padding-bottom: 20px;
 }
 
+.highlight {
+    background-color: yellow;
+}
+
 .list {
     padding: 20px 20px;
 }
 
+table {
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
 .table-head {
-    background-color: rgb(40, 56, 199);
+    background-color: rgb(40, 122, 199);
     text-align: left;
     color: white;
 }
@@ -53,7 +73,8 @@ tbody .colored {
 }
 
 .suggestions {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    color: grey;
 }
 
 .div-bg {
